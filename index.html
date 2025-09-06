@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dịch vụ chăm sóc mẹ sau sinh</title>
-    <link rel="icon" type="image/png" href="src/assets/z6965147397017_e45768a7ba0c3f02702eeeafeb3bb51b.jpg">
-  <style>
+    <link rel="icon" type="image/png" href="src/assets/Logo-Photoroom (1).png">
+<style>
     /* RESET & BASE */
     body {
       font-family: Arial, sans-serif;
@@ -22,6 +22,8 @@
       color: white;
       padding: 50px 20px;
       text-align: center;
+      border-radius: 0 0 30px 30px;
+      margin-bottom: 20px;
     }
     
     header img {
@@ -193,6 +195,7 @@
       text-align: center;
       padding: 20px;
       margin-top: 40px;
+      border-radius: 30px 30px 0 0;
     }
     
     footer a {
@@ -201,7 +204,29 @@
     }
 
     /* RESPONSIVE DESIGN */
-    @media (max-width: 768px) {
+      @media (max-width: 768px) {
+        header {
+          border-radius: 0 0 20px 20px;
+        }
+        
+        .logo {
+          max-width: 100px;
+          height: 100px;
+          margin-bottom: 15px;
+        }
+        
+        header h1 {
+          font-size: 1.8rem;
+        }
+        
+        header p {
+          font-size: 1rem;
+        }
+      
+      footer {
+        border-radius: 20px 20px 0 0;
+      }
+      
       header h1 {
         font-size: 1.8rem;
       }
@@ -227,6 +252,9 @@
 </head>
 <body>
   <header>
+  <div class="logo">
+    <img src="src/assets/Logo-Photoroom (1).png" alt="Mom & Baby Care Logo">
+  </div>
     <h1>Liệu Trình Chăm Sóc Mẹ Sau Sinh</h1>
     <p>Khôi phục sức khỏe – Giữ gìn vóc dáng – Thư giãn tinh thần</p>
     <a href="tel:0365486824" class="call-btn">📞 Gọi ngay: 0365 486 824</a>
